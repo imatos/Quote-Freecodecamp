@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
 
 * {
   padding: 0;
@@ -9,8 +8,7 @@
 
 body {
   background: #fbefef;
-  font-family: 'Open Sans';
-
+  font-family: 'Lobster';
   color: #ffffff;
 }
 
@@ -23,22 +21,23 @@ body {
 }
 
 .quote-bg {
-  padding: 25px;
-  margin-bottom: 20px;
+  padding: 10px;
   border-radius: 10px;
-  text-align: center;
-  min-width: 80%;
+  min-width: 70%;
   background: #001f3f;
-  margin: 0 10px;
-}
-
-.quote-text {
-  font-size: 20px;
+  text-align: center;
+  font-size: 25px;
 }
 
 .quote-mark {
-  font-size: 2em;
-  font-family: 'Sorts Mill Goudy';
+  font-size: 40px;
+}
+
+.quote-author {
+  font-family: sans-serif;
+  text-align: right;
+  font-size: 0.6em;
+  margin-right: 20px;
 }
 
 .btn-content {
