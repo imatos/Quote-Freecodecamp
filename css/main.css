@@ -42,34 +42,27 @@ body {
 
 .btn-content {
   display: flex;
+  align-items: center;
 }
 
 .btn {
-  height: 60px;
-  width: 150px;
+  position: static;
+  visibility: visible;
+  width: 75px;
+  height: 28px;
   border-radius: 5px;
   border: none;
 
   margin: 10px;
-  font-weight: bold;
   color: #fff;
 }
 
-.btn-twitter {
-  background: #55acee;
-}
-
-.btn-twitter:hover {
-  background: #8fcdfb;
-  cursor: pointer;
-}
-
 .btn-default {
-  background: #6400ff;
+  background: #535157;
 }
 
 .btn-default:hover {
-  border: 1px solid #b88bff;
-  background: #b88bff;
+  border: 1px solid #7c7c80;
+  background: #7c7c80;
   cursor: pointer;
 }
