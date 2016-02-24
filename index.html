@@ -4,25 +4,33 @@
     <meta charset="utf-8">
     <title>Random Quote - Freecodecamp</title>
     <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   </head>
   <script>
-  function quoteGeneration() {
-    var quotes = ["A", "B", "C", "D", "E"];
-    return quotes[0];
-  }
+  $(document).ready(function(){
+
+    $("#btn-quote").on('click', function(event){
+      $("#quote").text('a');
+    });
+
+  });
   </script>
   <body>
-    <div class="content">
-        <p class="quote">
-          <span class="quote-mark">"</span>
-          <span id="quote-text">
-            aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa Bolotinha Abc
-            aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa Bolotinha Abc
-          </span>
-          <span class="quote-mark">"</span>
-        </p>
-        <button type="button" name="button" class="btn">Generate</button>
-      </div>
-    </div>
+    <section class="content">
+      <p class="quote-bg">
+        <span class="quote-mark">"</span>
+        <span id="quote" class="quote-text">
+          aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa Bolotinha Abc
+          aaaaaaaaaaaaaaaaaaaaaa aaaaaaaaaaaaaaaaaaaaaa Bolotinha Abc
+        </span>
+        <span class="quote-mark">"</span>
+
+        <div class="btn-content">
+          <button id="btn-twitter" type="button" name="button" class="btn btn-twitter">Twitter</button>
+          <button id="btn-quote" type="button" name="button" class="btn btn-default">Generate Quote</button>
+          <div>
+        </div>
+      </p>
+    </section>
   </body>
 </html>
